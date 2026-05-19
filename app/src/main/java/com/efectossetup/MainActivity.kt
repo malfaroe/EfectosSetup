@@ -85,7 +85,7 @@ class PedalAdapter(
                 textSize = 36f
                 typeface = Typeface.MONOSPACE
                 setTextColor(Color.WHITE)
-                gravity = Gravity.CENTER
+                gravity = Gravity.START
                 letterSpacing = 0.05f
                 layoutParams = LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.MATCH_PARENT,
@@ -213,35 +213,35 @@ class MainActivity : AppCompatActivity() {
                 id = "tubescreamer",
                 name = "TUBESCREAMER",
                 accentColor = Color.parseColor("#4CAF50"),
-                defaultLines = listOf("9  |  9  |  12")
+                defaultLines = listOf("9/9/12")
             ),
             Pedal(
                 id = "simplifier",
                 name = "SIMPLIFIER",
                 accentColor = Color.parseColor("#FF9800"),
                 defaultLines = listOf(
-                    "12  |  12  |  9  |  9",
-                    "12",
-                    "12  |  12  |  9  |  12  |  12"
+                    "12 | 12 | 9 | 9",
+                    "[TODO]",
+                    "12 | TODO | 9 | 12 | 12"
                 )
             ),
             Pedal(
                 id = "rat",
                 name = "RAT",
                 accentColor = Color.parseColor("#F44336"),
-                defaultLines = listOf("10  |  3  |  9")
+                defaultLines = listOf("10 | 3 | 9")
             ),
             Pedal(
                 id = "flanger",
                 name = "FLANGER",
                 accentColor = Color.parseColor("#AB47BC"),
-                defaultLines = listOf("12  |  9  |  12  |  12")
+                defaultLines = listOf("12 | 9 | 12 | 12")
             ),
             Pedal(
                 id = "chorus",
                 name = "CHORUS",
                 accentColor = Color.parseColor("#29B6F6"),
-                defaultLines = listOf("11  |  12")
+                defaultLines = listOf("11 | TODO")
             )
         )
 
